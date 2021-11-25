@@ -1,0 +1,38 @@
+"Integration accuracy"                                                              1.0E-8
+"Cohort cycle time interval"                                                        0.05
+"Tolerance value, determining identity with zero"                                   1.0E-6
+
+"Maximum integration time"                                                        10000.0
+"Output time interval"                                                              0.5
+"Complete state output interval, 0 for none"                                        5.0
+
+"Minimum allowable number of individuals in cohort"                                 1.0E-9
+
+"Relative tolerances for i-state variable #0"                                       0.0
+"                        i-state variable #1"                                       0.0
+"Absolute tolerances for i-state variable #0"                                       0.0
+"                        i-state variable #1"                                       0.0
+
+"[ 0] Productivity ratio resource 1 and 2               RHO1              0.5"      0.85
+"[ 1] Productivity ratio resource 1 and 3               RHO2              0.5"      0.15
+"[ 2] Scaled resource turn-over rate                    DELTA             1.0"      1.0
+
+"[ 3] Scaled mortality rate small consumers             ETA1              1.0"      0.8
+"[ 4] Scaled mortality rate large consumers             ETA2              2.0"      1.5
+"[ 5] Scaled mortality rate in reserve                  ETA3              2.0"      1.0
+"[ 6] Scaled fishing mortality rate large consumers     E0S               0.1"      0.5
+
+"[ 7] Default switch size (scaled) if not evolving      WS                0.5"      0.1
+"[ 8] Attack rate ratio on resource 1 and 2             Q                 1.0"      1.0
+"[ 9] Scaled fecundity parameter                        BETA           2000.0"   2000.0
+"[10] Fraction of large consumers in reserve            C                 0.0"      0.1
+
+"[11] Heritability of trait value                       HERITABILITY      0.3"      0.3
+"[12] Half-width of the truncated normal distribution   GENETICVARIANCE   0.2"      0.2
+
+"Index of the bifurcation parameter                                          "      4.0
+"Step size in the bifurcation parameter                                      "        0.01
+"Final value of the bifurcation parameter                                    "        1.0
+"Linear (0) or logarithmic (1) parameter change                              "        0
+"Period of output generation in bifurcation                                  "      2000.0
+"Period of state output in bifurcation                                       "        0.0
