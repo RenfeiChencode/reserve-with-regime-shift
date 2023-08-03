@@ -1,0 +1,42 @@
+*******************************************************************************
+
+  PROGRAM, RUN AND ARGUMENTS
+    Program   : C:/Users/hp/Desktop/newsimulation202382/ReserveHabSwitch-qc
+    Run       : C:/Users/hp/Desktop/newsimulation202382/reservesize00fishing2
+    Arguments : 
+
+  USED VALUES FOR CONTROL VARIABLES
+    Time integration method                                            :  RKTSI5
+    Integration accuracy                                               :  1E-08     
+    Cohort cycle time interval                                         :  0.025     
+    Tolerance value, determining identity with zero                    :  1E-06     
+    Maximum integration time                                           :  3000.00   
+    Output time interval                                               :  1.00      
+    Complete state output interval, 0 for none                         :  1000.00   
+
+  USED VALUES OF TOLERANCES
+    Minimum allowable number of individuals in cohort                  :  1E-09  
+    Relative tolerances for i-state variable #0                        :  0      
+                            i-state variable #1                        :  0      
+    Absolute tolerances for i-state variable #0                        :  0      
+                            i-state variable #1                        :  0      
+
+  USED VALUES OF PARAMETERS
+    [ 0] Productivity ratio resource 1 and 2               RHO1              0.5  :  0.5       
+    [ 1] Productivity ratio resource 1 and 3               RHO2              0.5  :  0.5       
+    [ 2] Scaled resource turn-over rate                    DELTA             1.0  :  1         
+    [ 3] Scaled mortality rate small consumers             ETA1              1.0  :  1         
+    [ 4] Scaled mortality rate large consumers             ETA2              2.0  :  0.8       
+    [ 5] Scaled mortality rate in reserve                  ETA3              2.0  :  0.8       
+    [ 6] Scaled fishing mortality rate juveniles           ETSJ              0.1  :  2         
+    [ 7] Scaled fishing mortality rate adults              ETSA              0.1  :  2         
+    [ 8] Default switch size (scaled) if not evolving      WS                0.5  :  0.3735    
+    [ 9] Attack rate ratio on resource 1 and 2             Q                 1.0  :  1         
+    [10] Scaled fecundity parameter                        BETA           2000.0  :  2000      
+    [11] Fraction of large consumers in reserve            SIZERESERVE       0.2  :  0         
+    [12] Heritability of trait value                       HERITABILITY      0.3  :  0.3       
+    [13] Half-width of the truncated normal distribution   GENETICVARIANCE   0.2  :  0.1       
+    [14] Season length (cycle of open & closed fishing)    SEASON           50.0  :  50        
+    [15] FRACTION of season that fishing is prohibited     FISHINGCLOSED     0.5  :  0         
+    [16] Time at which the reserve is established          TRESEST           0.0  :  0         
+*******************************************************************************
